@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="SampleContactApp" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Sachin\ Oswal\\Downloads\\dotnet-sqldb-tutorial-master\\dotnet-sqldb-tutorial-master\\SampleContactApp\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Sachin\ Oswal\\Downloads\\dotnet-sqldb-tutorial-master\\dotnet-sqldb-tutorial-master\\SampleContactApp\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="MyDbConnection-Web.config Connection String" description="" value="Server=tcp:samplecontactappdbserver.database.windows.net,1433;Initial Catalog=SampleContactApp_db;Persist Security Info=False;User ID=contactadmin;Password=p@55w0rd;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Sachin\ Oswal\\Downloads\\dotnet-sqldb-tutorial-master\\dotnet-sqldb-tutorial-master\\SampleContactApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyDbConnection']/@connectionString" />
+  </parameter>
+</parameters>
